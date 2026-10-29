@@ -1,0 +1,6 @@
+.ambient-music{position:fixed;right:24px;bottom:24px;z-index:50;max-width:calc(100vw - 32px);border:1px solid #dcded3;border-radius:40px;background:#f8f7f3f5;box-shadow:0 8px 30px #292b2710;backdrop-filter:blur(14px)}
+.ambient-toggle{display:flex;align-items:center;gap:12px;padding:12px 18px 12px 12px;background:none;border:0;border-radius:inherit;color:var(--ink,#292b27);cursor:pointer;text-align:left}
+.ambient-toggle:focus-visible{outline:2px solid #798a70;outline-offset:4px}
+.ambient-icon{width:36px;height:36px;display:grid;place-items:center;flex-shrink:0;border-radius:50%;background:#e5e9dc;color:#647753;font-size:14px}
+.ambient-copy strong{display:block;font-size:12px;font-weight:500;line-height:1.5}.music-original{display:inline-block;margin-right:6px;padding:0 5px;border:1px solid #c6d0bb;border-radius:3px;color:#647753;font-size:9px;vertical-align:1px;white-space:nowrap}.ambient-copy small{display:block;font-size:10px;color:var(--muted);line-height:1.8}.ambient-music audio{display:none}.ambient-music .music-bars{margin-left:6px}
+@media(max-width:700px){.ambient-music{right:16px;bottom:calc(16px + env(safe-area-inset-bottom))}.ambient-toggle{padding:9px 14px 9px 9px;gap:9px}.ambient-copy strong{font-size:11px}.footer{padding-bottom:110px}}
